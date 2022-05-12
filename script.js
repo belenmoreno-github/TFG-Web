@@ -56,7 +56,7 @@ const images = [
   
 	textTitleColor: "white",
 	textTitleSize: 125,
-	mobileTextTitleSize: 80,
+	mobileTextTitleSize: 100,
 	textSubTitleColor: "white",
 	textSubTitleSize: 21,
 	mobileTextSubTitleSize: 16,

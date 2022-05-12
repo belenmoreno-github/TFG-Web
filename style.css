@@ -164,21 +164,7 @@ svg {
 .ticket .settings {
   margin: 0;
 }
-.ticket .search {
-  background-color: #fe6651;
-  position: absolute;
-  right: -54px;
-  height: 100%;
-  width: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0 4px 4px 0;
-}
-.ticket .search svg {
-  margin: 0;
-  width: 20px;
-}
+
 
 @-webkit-keyframes bg-anim {
   0% {
