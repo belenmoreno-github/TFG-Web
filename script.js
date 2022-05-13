@@ -9,12 +9,12 @@ const images = [
   ];
   
   const texts = [
-	["Nombre", "\"Si la moda es tu sueño, tú eres el nuestro\""],
+	["    Azul Turquesa\t", "\"Si la moda es tu sueño, tú eres el nuestro\""],
 	["NiceClothes", "\"Si la moda es tu sueño, tú eres el nuestro\""],
-	["Nuestras tiendas", "\"Encuentra tu tienda\""],
+	["Nuestras tiendas\t", "\"Encuentra tu tienda\""],
 	["Información", "\"Solicita información\""],
 	["Franquicias", "\"Solicita información\""],
-	["Trabaja con nosotros", "\"¡Únete al equipo!\""]
+	["Trabaja con nosotros", "\"¡Únete\tal equipo!\""]
   ];
   
   rgbKineticSlider = new rgbKineticSlider({
@@ -55,7 +55,7 @@ const images = [
 	navTextsRgbIntensity: 15,
   
 	textTitleColor: "white",
-	textTitleSize: 125,
+	textTitleSize: 120,
 	mobileTextTitleSize: 100,
 	textSubTitleColor: "white",
 	textSubTitleSize: 21,
