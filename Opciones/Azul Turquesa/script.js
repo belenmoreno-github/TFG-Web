@@ -1,15 +1,20 @@
-
 const images = [
     "fotos/foto2.jpg",
-    "fotos/foto2.jpg",
-    "fotos/foto2.jpg",
-
+    "fotos/foto.jpg",
+    "fotos/foto7.jpg",
+    "fotos/foto5.jpg",
+    "fotos/foto13.jpg",
+    "fotos/foto11.jpg", 
   ];
-
+  
   const texts = [
     ["Azul Turquesa", "\"Si la moda es tu sueño, tú eres el nuestro\""],
-    [" ", "\Nacimos en 2022 a través de un sueño. Tras observar el inmenso mercado del mundo de la moda, decidimos estudiar dichos datos de mercado, con la finalidad de que nuestros estudios nos sirviesen de ayuda a la hora de tomar decisiones a las nuevas empresas o nuevos proyectos. Por lo que llevamos a cavo la conclusión de hacer de nuestros estudios, el cumplimiento de los sueños de todos los que necesiten nuestra ayuda. Ofrecemos un estudio fiable y personal a cada una de las empresas, facilitándoles la creación de sus negocios a través de sus decisiones seguras. Surgimos de la idea de un proyecto de fin de grado de la universidad San Pablo CEU. En el cual pusimos todo nuestro empeño para poder llevarlo a cabo y servir de ayuda a todos aquellos que nos necesiten."],
-];
+    ["NiceClothes", "\"Si la moda es tu sueño, tú eres el nuestro\""],
+    ["Nuestras tiendas", "\"Encuentra tu tienda\""],
+    ["Información", "\"Solicita información\""],
+    ["Franquicias", "\"Solicita información\""],
+    ["Trabaja con nosotros", "\"¡Únete al equipo!\""]
+  ];
   
   rgbKineticSlider = new rgbKineticSlider({
     slideImages: images,
@@ -49,7 +54,7 @@ const images = [
     navTextsRgbIntensity: 15,
   
     textTitleColor: "white",
-    textTitleSize: 80,
+    textTitleSize: 125,
     mobileTextTitleSize: 80,
     textSubTitleColor: "white",
     textSubTitleSize: 21,

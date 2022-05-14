@@ -45,25 +45,17 @@ body {
   position: absolute;
   display: block;
 }
-.button{
-  border: none;
-    background: none;
-    cursor: pointer;
-    color:#f5f5f5;
-    box-shadow: none;
-}
+
 button {
     border: none;
     background: none;
     cursor: pointer;
     color:#f5f5f5;
-   
 }
 button:focus {
     outline: none;
     border: none;
     position: center;
-   
 }
 
 nav a {
@@ -228,4 +220,3 @@ svg {
     left: 10px;
   }
 }
-
