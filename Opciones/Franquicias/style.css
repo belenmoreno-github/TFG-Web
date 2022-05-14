@@ -60,7 +60,7 @@ html, body, header {
       background: linear-gradient( to bottom, 
           rgba(0,0,0, .2),
           rgba(0,0,0,.3)),
-          url("fotos/foto2.JPG");
+          url("fotos/foto4.JPG");
       height: 600px;
       background-position: center center;
       background-repeat: no-repeat;
@@ -125,26 +125,8 @@ html, body, header {
       margin: 0;
   }
   
-  /*Section Banner*/
+
   
-  .banner {
-      height: 150px;
-      background: linear-gradient( to bottom, 
-          rgba(0,0,0, .4),
-          rgba(0,0,0,.6)),
-          url('../cancun2.jfif');
-      color: #FFF;
-      text-align: center;
-      padding-top: 30px;
-      background-position: center center;
-      background-repeat: no-repeat;
-      -webkit-background-size: cover;
-      background-size: cover;
-  }
-  
-  .banner h1 {
-      font-size: 3em;
-  }
   /*Section Travel Options*/
   
   .options h3 {
