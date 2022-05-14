@@ -5,11 +5,11 @@ const images = [
     "fotos/foto7.jpg",
     "fotos/foto5.jpg",
     "fotos/foto13.jpg",
-    "fotos/foto13.jpg", 
+    "fotos/foto11.jpg", 
   ];
   
   const texts = [
-    ["Nombre", "\"Si la moda es tu sueño, tú eres el nuestro\""],
+    ["Azul Turquesa", "\"Si la moda es tu sueño, tú eres el nuestro\""],
     ["NiceClothes", "\"Si la moda es tu sueño, tú eres el nuestro\""],
     ["Nuestras tiendas", "\"Encuentra tu tienda\""],
     ["Información", "\"Solicita información\""],
