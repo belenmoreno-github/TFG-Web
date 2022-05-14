@@ -1,14 +1,10 @@
 
 const images = [
     "fotos/foto2.jpg",
-    "fotos/foto2.jpg",
-    "fotos/foto2.jpg",
-
   ];
 
   const texts = [
-    ["Azul Turquesa", "\"Si la moda es tu sueño, tú eres el nuestro\""],
-    [" ", "\Nacimos en 2022 a través de un sueño. Tras observar el inmenso mercado del mundo de la moda, decidimos estudiar dichos datos de mercado, con la finalidad de que nuestros estudios nos sirviesen de ayuda a la hora de tomar decisiones a las nuevas empresas o nuevos proyectos. Por lo que llevamos a cavo la conclusión de hacer de nuestros estudios, el cumplimiento de los sueños de todos los que necesiten nuestra ayuda. Ofrecemos un estudio fiable y personal a cada una de las empresas, facilitándoles la creación de sus negocios a través de sus decisiones seguras. Surgimos de la idea de un proyecto de fin de grado de la universidad San Pablo CEU. En el cual pusimos todo nuestro empeño para poder llevarlo a cabo y servir de ayuda a todos aquellos que nos necesiten."],
+    ["Azul Turquesa", "\"¡Bienvenido a Azul Turquesa!\""],
 ];
   
   rgbKineticSlider = new rgbKineticSlider({
