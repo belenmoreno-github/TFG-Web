@@ -324,4 +324,41 @@ html, body, header {
     border-radius: 50px; /*bordes redondos*/
   }
 
+/*Galería de imágenes*/
 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #222222;
+    font-family: sans-serif;
+  }
+  
+  img {
+    border-radius: 8px;
+    box-shadow: 0 0 9px rgba(100, 100, 100, 0.7);
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  .gallery {
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .gallery > div:nth-of-type(odd) {
+    grid-row-end: span 1;
+  }
+  .gallery > div:nth-of-type(even) {
+    grid-row-end: span 2;
+  }
