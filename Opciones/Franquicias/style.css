@@ -339,9 +339,9 @@ html, body, header {
 		padding: 10px;
 		font-family: Verdana;
 		border: none;
-		border-bottom: 1px solid #ff8000;
+		border-bottom: 1px solid #27bcc1;
 		transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ff8000 4%);
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #27bcc1 4%);
 		background-position: -900px 0;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
@@ -355,7 +355,7 @@ html, body, header {
           transition: all 0.3s ease-in-out;
 		}
 		.formulario input:focus::-webkit-input-placeholder{
-			color: #ff8000;
+			color: #27bcc1;
 			-webkit-transform:translate(-5px,-25px);
 			transform:translate(-5px,-25px);
 			visibility: visible !important;
@@ -364,13 +364,13 @@ html, body, header {
 			width: 100.2%;
 			font-size: 1.3em;
 			font-weight: bold;
-			background-color: #f1c40f;
+			background-color: #27bcc1;
 			color: #fff;
 			border: 0;
-			border-bottom: 2px solid #f39c12;
+			border-bottom: 2px solid #2758c1;
 		}
 		.formulario .boton:hover{
-			background-color: #F7ca18;
+			background-color: #2f27c1;
 		}
 	.formulario textarea{
 		width: 100%;
@@ -378,9 +378,9 @@ html, body, header {
 		padding: 10px;
 		font-family: Verdana;
 		border: none;
-		border-bottom: 1px solid #ff8000;
+		border-bottom: 1px solid #27bcc1;
 		transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #ff8000 4%);
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #27bcc1 4%);
 		background-position: -950px 0;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
@@ -394,7 +394,7 @@ html, body, header {
           	transition: all 0.3s ease-in-out;
 		}
 		.formulario textarea:focus::-webkit-textarea-placeholder{
-			color: #ff8000;
+			color: #27bcc1;
 			-webkit-transform:translate(-5px,-25px);
 			transform:translate(-5px,-25px);
 			visibility: visible !important;
@@ -405,5 +405,5 @@ html, body, header {
 		position: relative;
 		top: -50px;
 		background-color: #fff;
-		border-top: 3px solid #FFFF00;
+		border-top: 3px solid #27bcc1;
 	}
