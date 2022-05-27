@@ -1,8 +1,8 @@
 
 const images = [
-    "fotos/foto2.jpg",
+    "fotos/foto2.JPG",
   ];
-
+  
   const texts = [
     ["Azul Turquesa", "\"¡Bienvenido a Azul Turquesa!\""],
 ];
