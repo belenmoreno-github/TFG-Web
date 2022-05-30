@@ -324,4 +324,6 @@ html, body, header {
     border-radius: 50px; /*bordes redondos*/
   }
 
-
+.img {
+    position: center;
+}
